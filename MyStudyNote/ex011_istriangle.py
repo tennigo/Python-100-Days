@@ -11,6 +11,7 @@ if a + b > c and a + c > b and b + c > a:
     print('周长: %.2f' % (a + b + c))
     p = (a + b + c) / 2
     # 面积用的是海伦公式
+    # 数学家给算法, 程序员将算法变成程序
     area = (p * (p - a) * (p - b) * (p - c)) ** 0.5
     print('面积: %.2f' % (area))
 else:
